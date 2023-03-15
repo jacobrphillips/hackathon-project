@@ -1,0 +1,227 @@
+* ,
+*::before ,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 62.5;
+}
+
+body {
+width: 100%;
+height: 100vh;
+overflow: hidden;
+font-family: "paralucent", sans-serif;
+font-weight: 300;
+font-style: normal;
+background-color: #363636;
+}
+
+
+.block-1 {
+    background: #ADB5A8;
+    width: 30rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 7rem;
+    top: 35rem;
+    z-index: 3;
+}
+
+.block-1-contents {
+    color: #615B5B;
+    font-weight: 500;
+    font-size: 1.9rem;
+    margin-left: 1rem;
+    z-index: 1;
+}
+
+.block-2 {
+    background: #615B5B;
+    width: 17rem;
+    height: 20rem;
+    position: relative;
+    left: 10rem;
+    bottom: 21rem;
+    z-index: 2;
+}
+
+.block-3{
+    background: #D4D4D4;
+    width: 20rem;
+    height: 17rem;
+    position: relative;
+    left: 70rem;
+    bottom: 30rem;
+}
+
+.img-one {
+    position: absolute;
+    width: 40rem;
+    height: 28rem;
+    top: 30%;
+    left: 70%;
+    background: url("imgs/mountain.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.img-two {
+    position: absolute;
+    width: 22rem;
+    height: 32rem;
+    top: 0%;
+    left: 25%;
+    background: url("imgs/tower.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    z-index: 2;
+}
+
+.img-three {
+    position: absolute;
+    width: 10rem;
+    height: 30rem;
+    top: 60%;
+    left: 45%;
+    background: url("imgs/waves.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    z-index: 3;
+}
+
+.words {
+   position: absolute;
+   right: 9rem;
+   bottom: .2rem;
+   z-index: 2;
+}
+
+.words-container {
+    display: flex;
+    
+}
+
+.word-1 {
+    color: #89857C;
+    font-weight: 700;
+    font-size: 30rem;
+}
+
+.word-2 {
+    color: #ADB5A8;
+    font-weight: 700;
+    font-size: 30rem;
+}
+
+.word-3 {
+    color: #EDEDED;
+    font-weight: 700;
+    font-size: 30rem;
+}
+
+
+.string {
+    position: absolute;
+    right: 9rem;
+    top: 10rem;
+    mix-blend-mode: difference;
+    z-index: 1;
+ }
+ 
+ .string-container {
+ display: flex;
+    justify-content: center;
+align-items: center;
+     
+ }
+ 
+ .string-one {
+     color: #EDEDED;
+     font-weight: 300;
+     font-size: 1.9rem;
+     z-index: 1;
+ }
+
+ .string-two {
+    color: #EDEDED;
+    font-weight: 300;
+    font-size: 1.9rem;
+    z-index: 1;
+}
+
+.string-three {
+    color: #EDEDED;
+    font-weight: 500;
+    font-size: 1.9rem;
+    z-index: 1;
+}
+
+
+.flipped {
+    position: absolute;
+    right: 90rem;
+    top: 10rem;
+    mix-blend-mode: difference;
+    z-index: 2;
+ }
+ 
+ .flipped-container {
+    display: flex;
+ }
+ 
+ .flipped-one {
+    transform: rotate(-90deg);
+     color: #EDEDED;
+     font-weight: 400;
+     font-size: 3rem;
+     z-index: 1;
+ }
+ 
+ .stem-one {
+    background: #936262;
+    width: 30rem;
+    height: 4rem;
+    display: flex;
+    position: relative;
+    left: 7rem;
+    bottom: 15rem;
+    z-index: 0;
+ }
+
+ .stem-two {
+    background: #936262;
+    width: 30rem;
+    height: 3rem;
+    display: flex;
+    position: relative;
+    left: 7rem;
+    bottom: 14rem;
+    z-index: 0;
+ }
+
+ .stem-three {
+    background: #936262;
+    width: 30rem;
+    height: 2rem;
+    display: flex;
+    position: relative;
+    left: 7rem;
+    bottom: 13rem;
+    z-index: 0;
+ }
+
+
+ .stem-four {
+    background: #936262;
+    width: 3rem;
+    height: 50rem;
+    display: flex;
+    position: relative;
+    left: 63rem;
+    bottom: 100rem;
+    z-index: 1;
+ }
+
+
+ 
